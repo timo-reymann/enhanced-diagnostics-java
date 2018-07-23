@@ -1,7 +1,6 @@
 package de.timo_reymann.spring_boot_enhanced_diagnostics_starter.dto;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.org.apache.xml.internal.security.utils.Base64;
 import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.exception.DecryptReportFailedException;
 import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.CryptoUtility;
 import lombok.AllArgsConstructor;
@@ -12,6 +11,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.security.PrivateKey;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 
 @Data
@@ -28,7 +28,7 @@ public class EncryptedReport {
 
         for (String c : chunks) {
             try {
-                decryptedChunks.add(new String(CryptoUtility.decrypt(key, Base64.decode(c)), StandardCharsets.UTF_8));
+                decryptedChunks.add(new String(CryptoUtility.decrypt(key, Base64.getDecoder().decode(c)), StandardCharsets.UTF_8));
             } catch (Exception e) {
                 log.error("Decrypt chunk failed", e);
                 throw new DecryptReportFailedException(e);

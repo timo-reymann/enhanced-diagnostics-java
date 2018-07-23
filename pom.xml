@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.timo_reymann</groupId>
+    <groupId>com.github.timo-reymann</groupId>
     <artifactId>enhanced-diagnostics-java</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
-
+    <url>https://github.com/timo-reymann/enhanced-diagnostics-java</url>
     <name>enhanced-diagnostics-java</name>
     <description>Java library with batteries included for enhanced-diagnostics npm package</description>
 
