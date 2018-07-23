@@ -1,8 +1,8 @@
-package de.timo_reymann.spring_boot_enhanced_diagnostics_starter.dto;
+package com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.dto;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.exception.DecryptReportFailedException;
-import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.CryptoUtility;
+import com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.exception.DecryptReportFailedException;
+import com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.CryptoUtility;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

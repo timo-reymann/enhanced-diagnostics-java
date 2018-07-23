@@ -21,6 +21,6 @@ Thats it. Now you can process your report data.
 <dependency>
     <groupId>com.github.timo-reymann</groupId>
     <artifactId>enhanced-diagnostics-java</artifactId>
-    <version>0.0.2</version>
+    <version>1.0.0</version>
 </dependency>
 ```

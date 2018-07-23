@@ -1,4 +1,4 @@
-package de.timo_reymann.spring_boot_enhanced_diagnostics_starter;
+package com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter;
 
 import org.junit.Test;
 

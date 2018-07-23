@@ -1,8 +1,8 @@
-package de.timo_reymann.spring_boot_enhanced_diagnostics_starter.dto;
+package com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.dto;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.CryptoUtility;
-import de.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.TestResourceLoader;
+import com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.TestResourceLoader;
+import com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.util.CryptoUtility;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package de.timo_reymann.spring_boot_enhanced_diagnostics_starter.util;
+package com.github.timo_reymann.spring_boot_enhanced_diagnostics_starter.util;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 

@@ -5,7 +5,7 @@
 
     <groupId>com.github.timo-reymann</groupId>
     <artifactId>enhanced-diagnostics-java</artifactId>
-    <version>0.0.2</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <url>https://github.com/timo-reymann/enhanced-diagnostics-java</url>
     <name>enhanced-diagnostics-java</name>
